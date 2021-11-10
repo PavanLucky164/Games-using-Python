@@ -1,3 +1,8 @@
+"""
+Select the one number from the list of numbers. if selected number is similar to computer selected number then you will won the game
+if you not select the number from given list of numbers then you can select again.
+"""
+
 from numpy import random
 random_nums=random.randint(100,size=(5))
 print(random_nums)
